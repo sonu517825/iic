@@ -1,0 +1,17 @@
+{
+  "name": "iic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SET DEBUG=iic:* & nodemon bin/www"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.717.0",
+    "aws-sdk": "^2.1692.0",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "morgan": "^1.10.0"
+  }
+}
